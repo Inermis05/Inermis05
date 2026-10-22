@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <style>
+    .t {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Apple SD Gothic Neo",
+                   "Pretendard", "Segoe UI", "Helvetica Neue", Helvetica, Arial, "Malgun Gothic", sans-serif;
+    }
+    .eyebrow { font-size: 22px; font-weight: 600; letter-spacing: 0.2px; fill: #2997ff; }
+    .title   { font-size: 76px; font-weight: 700; letter-spacing: -2px;  fill: #f5f5f7; }
+    .sub     { font-size: 28px; font-weight: 400; letter-spacing: -0.2px; fill: #a1a1a6; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .a { animation: up 0.9s cubic-bezier(.2,.7,.2,1) both; }
+      .d1 { animation-delay: 0.05s; }
+      .d2 { animation-delay: 0.2s; }
+      .d3 { animation-delay: 0.35s; }
+    }
+    @keyframes up {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <!-- header-light.svg 와 같은 문구로 맞춰주세요 -->
+  <text class="t eyebrow a d1" x="600" y="104" text-anchor="middle">Software Engineer</text>
+  <text class="t title a d2"   x="600" y="192" text-anchor="middle">Hi, I'm Your Name.</text>
+  <text class="t sub a d3"     x="600" y="248" text-anchor="middle">Building simple things, carefully.</text>
+</svg>
